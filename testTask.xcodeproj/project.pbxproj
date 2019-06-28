@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		247D2C5F22C66B5B0098C506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D2C5E22C66B5B0098C506 /* AppDelegate.swift */; };
-		247D2C6122C66B5B0098C506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D2C6022C66B5B0098C506 /* ViewController.swift */; };
 		247D2C6422C66B5B0098C506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247D2C6222C66B5B0098C506 /* Main.storyboard */; };
 		247D2C6622C66B5D0098C506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247D2C6522C66B5D0098C506 /* Assets.xcassets */; };
 		247D2C6922C66B5D0098C506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247D2C6722C66B5D0098C506 /* LaunchScreen.storyboard */; };
+		247D2C7122C66D290098C506 /* CollegeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D2C7022C66D290098C506 /* CollegeTableViewController.swift */; };
+		247D2C7722C670B00098C506 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D2C7622C670B00098C506 /* College.swift */; };
+		247D2C7A22C672280098C506 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D2C7922C672280098C506 /* NetworkService.swift */; };
+		247D2C7C22C67A240098C506 /* CollegesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D2C7B22C67A240098C506 /* CollegesTableViewCell.swift */; };
+		247D2C7E22C682D20098C506 /* CollegeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D2C7D22C682D20098C506 /* CollegeDetailViewController.swift */; };
+		247D2C8022C684B40098C506 /* CollegeRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D2C7F22C684B40098C506 /* CollegeRating.swift */; };
+		247D2C8222C685B80098C506 /* CollegeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247D2C8122C685B80098C506 /* CollegeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		247D2C5B22C66B5B0098C506 /* testTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247D2C5E22C66B5B0098C506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		247D2C6022C66B5B0098C506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		247D2C6322C66B5B0098C506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		247D2C6522C66B5D0098C506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247D2C6822C66B5D0098C506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247D2C6A22C66B5D0098C506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247D2C7022C66D290098C506 /* CollegeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeTableViewController.swift; sourceTree = "<group>"; };
+		247D2C7622C670B00098C506 /* College.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+		247D2C7922C672280098C506 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		247D2C7B22C67A240098C506 /* CollegesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegesTableViewCell.swift; sourceTree = "<group>"; };
+		247D2C7D22C682D20098C506 /* CollegeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDetailViewController.swift; sourceTree = "<group>"; };
+		247D2C7F22C684B40098C506 /* CollegeRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeRating.swift; sourceTree = "<group>"; };
+		247D2C8122C685B80098C506 /* CollegeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,52 @@
 		247D2C5D22C66B5B0098C506 /* testTask */ = {
 			isa = PBXGroup;
 			children = (
+				247D2C7522C670850098C506 /* Model */,
+				247D2C7422C670800098C506 /* View */,
+				247D2C7322C6707C0098C506 /* Controller */,
+				247D2C7222C670760098C506 /* Service */,
 				247D2C5E22C66B5B0098C506 /* AppDelegate.swift */,
-				247D2C6022C66B5B0098C506 /* ViewController.swift */,
 				247D2C6222C66B5B0098C506 /* Main.storyboard */,
 				247D2C6522C66B5D0098C506 /* Assets.xcassets */,
 				247D2C6722C66B5D0098C506 /* LaunchScreen.storyboard */,
 				247D2C6A22C66B5D0098C506 /* Info.plist */,
 			);
 			path = testTask;
+			sourceTree = "<group>";
+		};
+		247D2C7222C670760098C506 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				247D2C7922C672280098C506 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		247D2C7322C6707C0098C506 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				247D2C7022C66D290098C506 /* CollegeTableViewController.swift */,
+				247D2C7D22C682D20098C506 /* CollegeDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		247D2C7422C670800098C506 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				247D2C7B22C67A240098C506 /* CollegesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		247D2C7522C670850098C506 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				247D2C7622C670B00098C506 /* College.swift */,
+				247D2C7F22C684B40098C506 /* CollegeRating.swift */,
+				247D2C8122C685B80098C506 /* CollegeDetail.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247D2C6122C66B5B0098C506 /* ViewController.swift in Sources */,
+				247D2C8022C684B40098C506 /* CollegeRating.swift in Sources */,
+				247D2C7122C66D290098C506 /* CollegeTableViewController.swift in Sources */,
+				247D2C7C22C67A240098C506 /* CollegesTableViewCell.swift in Sources */,
+				247D2C7A22C672280098C506 /* NetworkService.swift in Sources */,
+				247D2C8222C685B80098C506 /* CollegeDetail.swift in Sources */,
 				247D2C5F22C66B5B0098C506 /* AppDelegate.swift in Sources */,
+				247D2C7722C670B00098C506 /* College.swift in Sources */,
+				247D2C7E22C682D20098C506 /* CollegeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KB5RUBFJK;
 				INFOPLIST_FILE = testTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,7 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kaisheng.testTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KB5RUBFJK;
 				INFOPLIST_FILE = testTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kaisheng.testTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
